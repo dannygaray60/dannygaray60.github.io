@@ -12,6 +12,13 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
 
     <style type="text/css">
+
+      body { padding-top: 56px; }
+
+      .thumb-game{
+        max-width: 315px;
+      }
+
       .btn-steam{
         background: rgb(4,27,73);
         background: linear-gradient(180deg, rgba(4,27,73,1) 0%, rgba(42,71,94,1) 51%, rgba(0,120,214,1) 100%);
@@ -31,61 +38,190 @@
   </head>
   
   <body>
-    
 
-    <div class="container mt-4">
+    <nav class="fixed-top navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Danny Garay - homepage</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-      <div class="row mb-5 justify-content-center">
-        <h1>Danny Garay <small>subtexto</small></h1>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Games & Apps</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#social">Social Networks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
+    </nav>
+        
+    <main role="main" class="container mt-4">
+        
+        
 
-      <div class="row align-items-top">
+          <div class="row align-items-top">
 
-        <div class="col-md-8">
-          <div class="card bg-light mb-3">
-            <div class="card-header">
-              <h2>Games / Apps</h2>
-            </div>
-            <div class="card-body">
-              <div class="row">
-                
-
-                <div class="col-lg-6">
-                  <div class="container p-1">
-                    <a href="#">
-                      <img class="img-fluid" style="border-radius: 10%" src="https://img.itch.zone/aW1nLzg0NjUwMzEuZ2lm/105x83%23/TWdX7P.gif"/>
-                    </a>
-                    <a href="#">
-                      <h4 class="mt-2">Toziuha Night: Dracula's Revenge</h4>
-                    </a>
-                    <p>2D Classicvania side-scroller action platformer retro. <small class="text-secondary">Windows, Linux, Android</small></p>
-                    <div class="btn-group-vertical col">
-                      <a href="#" class="btn-steam btn btn-lg btn-light text-white btn-block"><i class="fa-brands fa-steam"></i> Steam</a>
-                      <a href="#" class="btn-itchio btn btn-lg btn-light text-white btn-block"><i class="fa-brands fa-itch-io"></i> Itch.io</a>
-                      <a href="#" class="btn-playstore btn btn-lg btn-light text-white btn-block"><i class="fa-brands fa-google-play"></i> Playstore</a>
-                    </div>
-                  </div>  
+            <div class="col-md-8">
+              <div class="card bg-light mb-3">
+                <div class="card-header">
+                  <h2><i class="fa-solid fa-gamepad"></i> Games / Apps</h2>
                 </div>
+                <div class="card-body">
+                  <div class="row">
+                    
+                    <!-- toziuha dr -->
+                    <div class="col-lg-6 mb-4">
+                      <div class="container p-1">
+                        <a href="#" class="d-flex justify-content-center">
+                          <img class="center thumb-game img-fluid" style="border-radius: 10%" src="https://img.itch.zone/aW1nLzg0NjUwMzEuZ2lm/105x83%23/TWdX7P.gif"/>
+                        </a>
+                        <a href="#" class="d-flex justify-content-center">
+                          <h4 class="mt-2">Toziuha Night: Dracula's Revenge</h4>
+                        </a>
+                        <p>2D Classicvania side-scroller action platformer retro. <small class="text-secondary">Windows, Linux, Android</small></p>
+                        <div class="btn-group-vertical col">
+                          <a href="#" class="btn-steam btn btn-lg btn-light text-white btn-block"><i class="fa-brands fa-steam"></i> Steam</a>
+                          <a href="#" class="btn-itchio btn btn-lg btn-light text-white btn-block"><i class="fa-brands fa-itch-io"></i> Itch.io</a>
+                          <a href="#" class="btn-playstore btn btn-lg btn-light text-white btn-block"><i class="fa-brands fa-google-play"></i> Playstore</a>
+                        </div>
+                      </div>  
+                    </div>
 
+                    <!-- toziuha oota -->
+                    <div class="col-lg-6 mb-4">
+                      <div class="container p-1">
+                        <a href="#" class="d-flex justify-content-center">
+                          <img class="thumb-game img-fluid" style="border-radius: 10%" src="https://img.itch.zone/aW1nLzcwNjk5NzAuanBn/315x250%23c/cXZKth.jpg"/>
+                        </a>
+                        <a href="#" class="d-flex justify-content-center">
+                          <h4 class="mt-2">Toziuha Night: Order of the Alchemists <small>[in development]</small></h4>
+                        </a>
+                        <p>2D side-scroller action platformer metroidvania RPG.<small class="text-secondary">Windows, Linux, Android</small></p>
+                        <div class="btn-group-vertical col">
+                          <a href="#" class="btn-itchio btn btn-lg btn-light text-white btn-block"><i class="fa-brands fa-itch-io"></i> Itch.io</a>
+                          <a href="#" class="btn-playstore btn btn-lg btn-light text-white btn-block"><i class="fa-brands fa-google-play"></i> Playstore</a>
+                        </div>
+                      </div>  
+                    </div>
+
+                    <!-- funemu -->
+                    <div class="col-lg-6 mb-4">
+                      <div class="container p-1">
+                        <a href="#" class="d-flex justify-content-center">
+                          <img class="thumb-game img-fluid" style="border-radius: 10%" src="https://img.itch.zone/aW1nLzQ5MTI5MjIucG5n/315x250%23c/204V8P.png"/>
+                        </a>
+                        <a href="#" class="d-flex justify-content-center">
+                          <h4 class="mt-2">FunEmuStation Launcher - Frontend Emulation</h4>
+                        </a>
+                        <p>A simple but elegant launcher for emulators and pc games. <small class="text-secondary">Windows, Linux, MacOS</small></p>
+                        <div class="btn-group-vertical col">
+                          <a href="#" class="btn-itchio btn btn-lg btn-light text-white btn-block"><i class="fa-brands fa-itch-io"></i> Itch.io</a>
+                        </div>
+                      </div>  
+                    </div>
+
+                    <!-- ubbeat -->
+                    <div class="col-lg-6 mb-4">
+                      <div class="container p-1">
+                        <a href="#" class="d-flex justify-content-center">
+                          <img class="thumb-game img-fluid" style="border-radius: 10%" src="https://img.itch.zone/aW1nLzUxOTk1ODguanBn/315x250%23c/Hi11hp.jpg"/>
+                        </a>
+                        <a href="#" class="d-flex justify-content-center">
+                          <h4 class="mt-2">Upbeat Melody Project</h4>
+                        </a>
+                        <p>A Free Anime Rhythm Game! <small class="text-secondary">Windows, Linux, Android</small></p>
+                        <div class="btn-group-vertical col">
+                          <a href="#" class="btn-itchio btn btn-lg btn-light text-white btn-block"><i class="fa-brands fa-itch-io"></i> Itch.io</a>
+                          <a href="#" class="btn-playstore btn btn-lg btn-light text-white btn-block"><i class="fa-brands fa-google-play"></i> Playstore</a>
+                        </div>
+                      </div>  
+                    </div>
+
+                    <!-- satanya -->
+                    <div class="col-lg-6 mb-4">
+                      <div class="container p-1">
+                        <a href="#" class="d-flex justify-content-center">
+                          <img class="thumb-game img-fluid" style="border-radius: 10%" src="https://img.itch.zone/aW1nLzQyMzMxMTQuanBn/315x250%23c/06TR4t.jpg"/>
+                        </a>
+                        <a href="#" class="d-flex justify-content-center">
+                          <h4 class="mt-2">Satanya's Adventure - All you need is melonpan</h4>
+                        </a>
+                        <p>An casual game with a moe demon girl <small class="text-secondary">Windows, Linux, Android</small></p>
+                        <div class="btn-group-vertical col">
+                          <a href="#" class="btn-itchio btn btn-lg btn-light text-white btn-block"><i class="fa-brands fa-itch-io"></i> Itch.io</a>
+                          <a href="#" class="btn-playstore btn btn-lg btn-light text-white btn-block"><i class="fa-brands fa-google-play"></i> Playstore</a>
+                        </div>
+                      </div>  
+                    </div>
+
+                    <!-- club -->
+                    <div class="col-lg-6 mb-4">
+                      <div class="container p-1">
+                        <a href="#" class="d-flex justify-content-center">
+                          <img class="thumb-game img-fluid" style="border-radius: 10%" src="https://img.itch.zone/aW1nLzM4ODcyOTcucG5n/315x250%23c/uY2NWY.png"/>
+                        </a>
+                        <a href="#" class="d-flex justify-content-center">
+                          <h4 class="mt-2">Club de Detectives - Caso 01</h4>
+                        </a>
+                        <p>Novela visual de comedia y misterio <small class="text-secondary">Windows, Linux, Android</small></p>
+                        <div class="btn-group-vertical col">
+                          <a href="#" class="btn-itchio btn btn-lg btn-light text-white btn-block"><i class="fa-brands fa-itch-io"></i> Itch.io</a>
+                        </div>
+                      </div>  
+                    </div>
+
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div class="col-md-4">
-          <div class="card bg-light mb-3">
-            <div class="card-header bg-info"><h2 class="text-white">About me</h2></div>
-            <div class="card-body">
-              <!-- <h5 class="card-title">Light card title</h5> -->
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="col-md-4">
+              
+              <div id="about" class="card bg-light mb-3">
+                <div class="card-header bg-light"><h2 class="text-secondary"><i class="fa-solid fa-address-card"></i> About me</h2></div>
+                <div class="card-body">
+                  <!-- <h5 class="card-title">Light card title</h5> -->
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+              <div id="social" class="card bg-light mb-3">
+                <div class="card-header bg-info"><h2 class="text-white"><i class="fa-solid fa-hashtag"></i> Social</h2></div>
+                <div class="card-body">
+                  <ul>
+                    <li><a href="#"><h5>Danny Garay (twitter)</h5></a></li>
+                    <li><a href="#"><h5>My Youtube Channel</h5></a></li>
+                    <li><a href="#"><h5>Toziuha Night (facebook)</h5></a></li>
+                    <li><a href="#"><h5>Toziuha Night (discord)</h5></a></li>
+                    <li><a href="#"><h5>Donations (ko-fi)</h5></a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div id="contact" class="card bg-light mb-3">
+                <div class="card-header bg-light"><h2 class="text-secondary"><i class="fa-regular fa-envelope"></i> Contact me</h2></div>
+                <div class="card-body">
+                  <ul>
+                    <li><a href="mailto:dannygaray60@gmail.com"><h5>dannygaray60@gmail.com</h5></a></li>
+                    <li><a href="#"><h5>Discord: dannygaray60#8342</h5></a></li>
+                  </ul>
+                </div>
+              </div>
+
             </div>
+
           </div>
+       
         </div>
-
-      </div>
-   
-    </div>
-
+    </main>
     
 
     <!-- Optional JavaScript -->
