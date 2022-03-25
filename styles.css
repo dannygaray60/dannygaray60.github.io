@@ -1,0 +1,31 @@
+
+body { padding-top: 56px;padding-bottom: 80px }
+
+.thumb-game{
+  max-width: 315px;
+}
+
+.btn-steam{
+  background: rgb(4,27,73);
+  background: linear-gradient(180deg, rgba(4,27,73,1) 0%, rgba(42,71,94,1) 51%, rgba(0,120,214,1) 100%);
+}
+.btn-itchio{
+  background: rgb(121,21,12);
+  background: linear-gradient(180deg, rgba(231,90,86,1) 0%, rgba(231,90,86,1) 92%);
+}
+
+.btn-playstore{
+  background: rgb(47, 152, 24);
+  background: linear-gradient(180deg, rgb(47, 152, 24) 0%, rgb(47, 152, 24) 92%);
+}
+
+.btn-github{
+  text-decoration-color:  rgb(212, 217, 217,1);
+  background: rgb(212, 217, 217);
+  background: linear-gradient(180deg, rgb(212, 217, 217) 0%, rgb(212, 217, 217) 92%);
+}
+
+.bg-custom {
+  background: rgb(0,0,102);
+  background: linear-gradient(99deg, rgba(0,0,102,1) 0%, rgba(8,151,185,1) 92%);
+}
