@@ -1,2 +1,5 @@
+31 de marzo 2022
+Estoy retomando el desarrollo de mi juego metroidvania, serán cambios necesarios si quiero llamar a mi juego una vez que esté finalizado, mi obra maestra.
+
 24 de marzo 2022
 He puesto en funcionamiento este pequeño sitio web. También usaré esta sección para escribir lo que haga en relación al desarrollo del juego. O también solo para desquitarme.
