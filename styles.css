@@ -29,3 +29,9 @@ body { padding-top: 56px;padding-bottom: 80px }
   background: rgb(0,0,102);
   background: linear-gradient(99deg, rgba(0,0,102,1) 0%, rgba(8,151,185,1) 92%);
 }
+
+.center-block {
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+}
