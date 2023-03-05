@@ -14,6 +14,11 @@ body { padding-top: 56px;padding-bottom: 80px }
   background: linear-gradient(180deg, rgba(231,90,86,1) 0%, rgba(231,90,86,1) 92%);
 }
 
+.btn-nintendo{
+  background: rgb(217,0,19);
+  background: linear-gradient(9deg, rgba(217,0,19,1) 0%, rgba(217,0,19,1) 54%);
+}
+
 .btn-playstore{
   background: rgb(47, 152, 24);
   background: linear-gradient(180deg, rgb(47, 152, 24) 0%, rgb(47, 152, 24) 92%);
