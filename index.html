@@ -1,498 +1,160 @@
-<!DOCTYPE html>
-<html lang="zxx">
-
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="description" content="Danny Garay - Indie Game Developer">
     <meta name="keywords" content="Anime, Videogames, Metroidvania, Castlevania, Godot Engine, Indie games">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Danny Garay - Indie Game Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./mystyle.css">
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
-
-    <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/plyr.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon//favicon-16x16.png">
+    <link rel="manifest" href="./favicon//site.webmanifest">
+    <link rel="mask-icon" href="./favicon//safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#992D7E">
 
 </head>
-
 <body>
-    <!-- Page Preloder -->
-    <!-- <div id="preloder">
-        <div class="loader"></div>
-    </div> -->
-
-    <!-- Header Section Begin -->
-    <header class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2">
-                    <div class="header__logo">
-                        <h5 class="text-white">Danny Garay</h5>
-                        <!-- <a href="./index.html">
-                            <img src="img/logo.png" alt="">
-                        </a> -->
-                    </div>
-                </div>
-                <div class="col-lg-10">
-                    <div class="header__nav">
-                        <nav class="header__menu mobile-menu">
-                            <ul>
-                                <li><a href="#about">About Me</a></li>
-                                <li><a href="#social">Social Networks</a></li>
-                                <li><a href="#donation">Donations</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-            <div id="mobile-menu-wrap"></div>
-        </div>
-    </header>
-    <!-- Header End -->
-
-    <!-- Hero Section Begin -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero__slider owl-carousel">
-                <div class="hero__items set-bg" data-setbg="images/hero-1.jpg">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="hero__text">
-                                <div class="label">Metroidvania</div>
-                                <h2 class="herotitle">Toziuha Night: Order of the Alchemists</h2>
-                                <h5 class="text-white herotitle">2D side-scroller action platformer Metroidvania RPG.</h5>
-                                <p>Steam, Playstore, Itchio, Switch, Apple...</p>
-                                <a href="tn-oota.html"><span>See more...</span> <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Hero Section End -->
-
-    <!-- Product Section Begin -->
-    <section class="product spad">
-        <div class="container">
-            
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="trending__product">
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-8">
-                                <div class="section-title">
-                                    <h4>Videogames developed</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <!-- Toziuha oota -->
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <a href="tn-oota.html">
-                                        <div class="product__item__pic set-bg" data-setbg="images/tn-oota/thumb.png">
-                                            <div class="ep">In progress (demo available)</div>
-                                        </div>
-                                    </a>
-
-                                    <div class="product__item__text">
-                                        <ul>
-                                            <li>Windows</li>
-                                            <li>Linux</li>
-                                            <li>Android</li>
-                                            <li>iOS</li>
-                                            <li>Nintendo Switch</li>
-                                        </ul>
-                                        <h5><a href="tn-oota.html">Toziuha Night: Order of the Alchemists</a></h5>
-                                        <p class="text-white">2D side-scroller action platformer metroidvania RPG.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Toziuha DR -->
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <a href="https://dannygaray60.itch.io/toziuha-night-draculas-revenge" target="_blank">
-                                        <div class="product__item__pic set-bg" data-setbg="images/tn-dr/thumb.png">
-                                            <div class="ep">Released</div>
-                                        </div>
-                                    </a>
-
-                                    <div class="product__item__text">
-                                        <ul>
-                                            <li>Windows</li>
-                                            <li>Linux</li>
-                                            <li>Android</li>
-                                            <li>iOS</li>
-                                            <li>Nintendo Switch</li>
-                                        </ul>
-                                        <h5><a href="https://dannygaray60.itch.io/toziuha-night-draculas-revenge" target="_blank">Toziuha Night: Dracula's Revenge</a></h5>
-                                        <p class="text-white">2D Classicvania side-scroller action platformer retro.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- upbeat -->
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <a href="https://dannygaray60.itch.io/upbeat-melody-project" target="_blank">
-                                        <div class="product__item__pic set-bg" data-setbg="images/upbeat.png">
-                                            <div class="ep">Released</div>
-                                        </div>
-                                    </a>
-
-                                    <div class="product__item__text">
-                                        <ul>
-                                            <li>Windows</li>
-                                            <li>Linux</li>
-                                            <li>Android</li>
-                                        </ul>
-                                        <h5><a href="https://dannygaray60.itch.io/upbeat-melody-project" target="_blank">Upbeat Melody Project</a></h5>
-                                        <p class="text-white">A Free Anime Rhythm Game!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- nagai -->
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <a href="https://dannygaray60.itch.io/nagai" target="_blank">
-                                        <div class="product__item__pic set-bg" data-setbg="images/nagai.png">
-                                            <div class="ep">Released</div>
-                                        </div>
-                                    </a>
-
-                                    <div class="product__item__text">
-                                        <ul>
-                                            <li>Windows</li>
-                                        </ul>
-                                        <h5><a href="https://dannygaray60.itch.io/nagai" target="_blank">Nagai</a></h5>
-                                        <p class="text-white">This is the story of a couple in love, at the end of the world.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- satanya -->
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <a href="https://dannygaray60.itch.io/satanya-adventure-1" target="_blank">
-                                        <div class="product__item__pic set-bg" data-setbg="images/satanya.png">
-                                            <div class="ep">Released</div>
-                                        </div>
-                                    </a>
-
-                                    <div class="product__item__text">
-                                        <ul>
-                                            <li>Windows</li>
-                                            <li>Linux</li>
-                                            <li>Android</li>
-                                        </ul>
-                                        <h5><a href="https://dannygaray60.itch.io/satanya-adventure-1" target="_blank">Satanya's Adventure - All you need is melonpan</a></h5>
-                                        <p class="text-white">An casual game with a moe demon girl.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- club -->
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <a href="https://dannygaray60.itch.io/detectives-club" target="_blank">
-                                        <div class="product__item__pic set-bg" data-setbg="images/club.png">
-                                            <div class="ep">Released</div>
-                                        </div>
-                                    </a>
-
-                                    <div class="product__item__text">
-                                        <ul>
-                                            <li>Windows</li>
-                                            <li>Linux</li>
-                                            <li>Android</li>
-                                        </ul>
-                                        <h5><a href="https://dannygaray60.itch.io/detectives-club" target="_blank">Club de Detectives - Caso 01</a></h5>
-                                        <p class="text-white">Novela visual de comedia y misterio.</p>
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>    
-
-
-
-
-
-            <div class="row">       
-
-
-                <div class="col-lg-12">
-                    <div class="trending__product">
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-8">
-                                <div class="section-title">
-                                    <h4>Tools developed</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <!-- funemu -->
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <a href="https://dannygaray60.itch.io/funemustation-launcher" target="_blank">
-                                        <div class="product__item__pic set-bg" data-setbg="images/funemu.png">
-                                            <div class="ep">Released</div>
-                                        </div>
-                                    </a>
-
-                                    <div class="product__item__text">
-                                        <ul>
-                                            <li>Windows</li>
-                                            <li>Linux</li>
-                                            <li>MacOS</li>
-                                        </ul>
-                                        <h5><a href="https://dannygaray60.itch.io/funemustation-launcher" target="_blank">FunEmuStation Launcher - Frontend Emulation</a></h5>
-                                        <p class="text-white">A simple but elegant launcher for emulators and pc games.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- localization -->
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <a href="https://dannygaray60.itch.io/localization-editor" target="_blank">
-                                        <div class="product__item__pic set-bg" data-setbg="images/localizationeditor.png">
-                                            <div class="ep">Released</div>
-                                        </div>
-                                    </a>
-
-                                    <div class="product__item__text">
-                                        <ul>
-                                            <li>Windows</li>
-                                            <li>Linux</li>
-                                        </ul>
-                                        <h5><a href="https://dannygaray60.itch.io/localization-editor" target="_blank">Localization Editor (Translation Tool)</a></h5>
-                                        <p class="text-white">Edit, add and erase translations from CSV files.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- blueprint -->
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <a href="https://dannygaray60.itch.io/gamelevels-blueprint" target="_blank">
-                                        <div class="product__item__pic set-bg" data-setbg="images/gamelevels.png">
-                                            <div class="ep">Released</div>
-                                        </div>
-                                    </a>
-
-                                    <div class="product__item__text">
-                                        <ul>
-                                            <li>Godot Engine addon</li>
-                                        </ul>
-                                        <h5><a href="https://dannygaray60.itch.io/gamelevels-blueprint" target="_blank">Game Levels Blueprint</a></h5>
-                                        <p class="text-white">Create a blueprint to organize interconnected levels of a godot game.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </div>   
-
-
-            </div>
-
-
-            </div>
-
-
-
-
-
-
-        </div>
-
-
-
-    <div class="row">
-                
-
-
-                <div id="about" class="col-md-6 col-lg-4">
-                    <div class="trending__product">
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-8">
-                                <div class="section-title">
-                                    <h4>About me</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <p class="card-text text-white">Hi, I'm <b>Danny Garay</b>, 26 years old. <b>I live in Nicaragua.</b> I like video games, anime and also reading.</p>
-                              <p class="card-text text-white">
-                                <b>I'm an unemployed systems engineer programming games from home.</b> I use "Godot Engine" as my main game engine, although I have also used "Renpy" for visual novels.
-                              </p>
-                              <p class="card-text text-white">
-                                I also have knowledge about graphic design, web programming (php) and drawing from time to time.
-                              </p>
-
-                        </div>
-                    </div>       
-                </div>
-
-                <div id="social" class="col-md-6 col-lg-4">
-                    <div class="trending__product">
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-8">
-                                <div class="section-title">
-                                    <h4>Social</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <ul class="text-white">
-                                <li><a href="mailto:dannygaray60@gmail.com"><h5>dannygaray60@gmail.com</h5></a></li>
-                                <li><a href="#"><h5>Discord: dannygaray60#8342</h5></a></li>
-                                <li><a target="_blank" href="https://twitter.com/dannygaray60"><h5>Danny Garay (twitter)</h5></a></li>
-                                <li><a target="_blank" href="https://www.youtube.com/channel/UCvVI-89_pIrYlT4Dex7vtfA"><h5>My Youtube Channel</h5></a></li>
-                                <li><a target="_blank" href="https://www.facebook.com/toziuhanight"><h5>Toziuha Night (facebook)</h5></a></li>
-                                <li><a target="_blank" href="https://discord.gg/jygdDzjdya"><h5>Toziuha Night (discord)</h5></a></li>
-                                <li><a target="_blank" href="https://ko-fi.com/dannygaray60"><h5>Donations (ko-fi)</h5></a></li>
-                            </ul>
-
-                        </div>
-                    </div>       
-                </div>
-
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="trending__product">
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-8">
-                                <div class="section-title">
-                                    <h4>Other links</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <ul class="text-white">
-                                <li><a target="_blank" href="https://store.steampowered.com/franchise/toziuhanight"><h5>Toziuha Night franchise on Steam</h5></a></li>
-                                <li><a target="_blank" href="https://github.com/dannygaray60"><h5>My projects on github</h5></a></li>
-                                <li><a target="_blank" href="https://www.facebook.com/dannygarayrock"><h5>Danny Garay (facebook)</h5></a></li>
-                                <li><a target="_blank" href="https://dannygaray60.blogspot.com/"><h5>My old blog (on spanish)</h5></a></li>
-                                <li><a target="_blank" href="https://dannygaray60.itch.io/"><h5>Danny Garay on Itch.io</h5></a></li>
-                            </ul>
-
-                        </div>
-                    </div>       
-                </div>
-
-
-
-    </div>
-
-
-
-
-
-
-
-
-
-    <div class="row">
-                
-
-
-
-
-
-                <div class="col-md-6 col-lg-6">
-                    <div class="trending__product">
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-8">
-                                <div class="section-title">
-                                    <h4>Toziuha Night FB</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-
-                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftoziuhanight%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                        </div>
-                    </div>       
-                </div>
-
-
-
-                <div id="donation" class="col-md-6 col-lg-6">
-                    <div class="trending__product">
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-8">
-                                <div class="section-title">
-                                    <h4>Donations</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-
-                            <iframe id='kofiframe' src='https://ko-fi.com/dannygaray60/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='650' title='dannygaray60'></iframe>
-                        </div>
-                    </div>       
-                </div>
-
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Product Section End -->
-
-    <!-- Footer Section Begin -->
-    <footer class="footer">
-        <div class="page-up">
-            <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
-        </div>
-        <div class="container mt-4">
-            <div class="row text-right">
-                <div class="col-lg-12">
-                    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                  </div>
-              </div>
+  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary body-tertiary text-uppercase fixed-top" id="mainNav">
+      <div class="container">
+          <a class="navbar-brand" href="#home">Danny Garay</a>
+          <button class="navbar-toggler text-uppercase font-weight-bold text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              Menu
+              <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#games">Games</a></li>
+                  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#apps">Apps & Tools</a></li>
+                  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About & Contact</a></li>
+              </ul>
           </div>
-      </footer>
-      <!-- Footer Section End -->
+      </div>
+  </nav>
+
+    <section id="home">
+      <div class="featured-game p-5 pt-5 mt-4">
+        <div class="content-container mb-4">
+            <h1 class="title-shadow">Toziuha Night: Order of the Alchemists</h1>
+            <hr>
+            <p class="p-shadow">Metroidvania / 2D side-scroller action platformer game.</p>
+            <p class="p-shadow"><i>Platforms: Steam, Playstore, Itchio, Switch, Apple...</i></p>
+            <a href="tn-oota.html" class="btn btn-danger btn-lg"><span>See more...</span> <i class="fa fa-angle-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="games" class="container mt-5 pb-4">
+      <h1 class="text-center ">Videogames Developed</h1>
+      <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-gamepad"></i></div>
+          <div class="divider-custom-line"></div>
+      </div>
+      <div class="mt-4 d-flex flex-wrap gap-4 align-content-center justify-content-center">
+        <a href="./tn-oota.html"><img class="img-fluid img-portfolio rounded-5" src="./img/tn-oota.png" alt=""></a>
+        <a href="https://dannygaray60.itch.io/toziuha-night-draculas-revenge" target="_blank"><img class="img-fluid img-portfolio rounded-5" src="./img/tn-dr.png" alt=""></a>
+        <a href="https://dannygaray60.itch.io/upbeat-melody-project" target="_blank"><img class="img-fluid img-portfolio rounded-5" src="./img/upbeat.png" alt=""></a>
+        <a href="https://dannygaray60.itch.io/nagai" target="_blank"><img class="img-fluid img-portfolio rounded-5" src="./img/nagai.png" alt=""></a>
+        <a href="https://dannygaray60.itch.io/satanya-adventure-1" target="_blank"><img class="img-fluid img-portfolio rounded-5" src="./img/satanya.png" alt=""></a>
+        <a href="https://dannygaray60.itch.io/detectives-club" target="_blank"><img class="img-fluid img-portfolio rounded-5" src="./img/club.png" alt=""></a>
+      </div>
+    </section>
+  
+    <section id="apps" class="container mt-5 pb-4">
+      <h1 class="text-center ">Apps & Tools Developed</h1>
+      <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-toolbox"></i></div>
+          <div class="divider-custom-line"></div>
+      </div>
+      <div class="mt-4 d-flex flex-wrap gap-4 align-content-center justify-content-center">
+        <a href="https://dannygaray60.itch.io/funemustation-launcher" target="_blank"><img class="img-fluid img-portfolio rounded-5" src="./img/funemu.png" alt=""></a>
+        <a href="https://dannygaray60.itch.io/localization-editor" target="_blank"><img class="img-fluid img-portfolio rounded-5" src="./img/localizationeditor.png" alt=""></a>
+        <a href="https://dannygaray60.itch.io/gamelevels-blueprint" target="_blank"><img class="img-fluid img-portfolio rounded-5" src="./img/gamelevels.png" alt=""></a>
+      </div>
+    </section>
+
+    <section id="about" class="container mt-5 pb-4">
+
+      <div class="row">
+        <div class="col-md">
+          <h1 class="text-center ">Hi! I'm Danny Garay, 26 years old. I live in Nicaragua!</h1>
+          <hr>
+          <p>
+            I like video games, anime and also reading. I'm an systems engineer programming games from home.
+    
+            I use "Godot Engine" as my main game engine, although I have also used "Renpy" for visual novels.
+    
+            I also have knowledge about graphic design, web programming (php) and drawing from time to time.
+          </p>
+        </div>
+        <div class="col-md">
+            <h1 class="text-center ">Contact Me!</h1>
+            <div class="m-4 text-center" >
+              <ul class="list-inline social-icons">
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/dannygarayrock" target="_blank">
+                    <i class="fab fa-facebook fa-2xl"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://twitter.com/dannygaray60" target="_blank">
+                    <i class="fab fa-twitter fa-2xl"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.youtube.com/channel/UCvVI-89_pIrYlT4Dex7vtfA" target="_blank">
+                    <i class="fab fa-youtube fa-2xl"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://discord.gg/jygdDzjdya" target="_blank">
+                    <i class="fab fa-discord fa-2xl"></i>
+                  </a>
+                </li>
+              </ul>
+          </div>
+          <h4 class="text-center ">Email: <b class="text-info">dannygaray60 (at) gmail.com</b></h4>
+          <h1 class="text-center mt-4">GameDev</h1>
+          <div class="m-4 text-center" >
+            <ul class="list-inline social-icons">
+              <li class="list-inline-item">
+                <a href="https://store.steampowered.com/search/?developer=Danny%20Garay" target="_blank">
+                  <i class="fab fa-steam fa-2xl"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://dannygaray60.itch.io/" target="_blank">
+                  <i class="fab fa-itch-io fa-2xl"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/dannygaray60" target="_blank">
+                  <i class="fab fa-github fa-2xl"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="text-center ">
+            <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'X8X82YWDI');kofiwidget2.draw();</script> 
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="container my-5 text-end">Copyright 2024 - Danny Garay</div>
 
 
-
-<!-- Js Plugins -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/player.js"></script>
-<script src="js/jquery.nice-select.min.js"></script>
-<script src="js/mixitup.min.js"></script>
-<script src="js/jquery.slicknav.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/main.js"></script>
-
-
-</body>
-
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
+  </body>
 </html>
