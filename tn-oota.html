@@ -16,6 +16,12 @@
     <link rel="mask-icon" href="./favicon//safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#992D7E">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 </head>
 <body class="alter-body-bg">
 
@@ -31,7 +37,7 @@
         <div class="video-overlay"></div>
         
         <video autoplay muted loop>
-            <source src="./img/tn-oota/TrailerGrijaylaMute.mp4" type="video/mp4">
+            <source src="./img/tn-oota/TrailerGrijaylaMuteLow.mp4" type="video/mp4">
         </video>
 
         <div class="container videoheader-content">
@@ -117,53 +123,44 @@
               </div>
               <div class="col-sm-12 d-md-none"><hr></div>
               <div class="col-md-6">
-                  <div class="section-title">
-                      <h3>Screenshoots</h3>
-                      <!-- Carousel -->
-                      <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-                        <!-- Indicators/dots -->
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-                          <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
-                          <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
-                          <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
-                        </div>
-
-                        <!-- The slideshow/carousel -->
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
+                <h3>Screenshoots</h3>
+                <div class="section-title">
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                      <!-- Additional required wrapper -->
+                      <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
                             <img src="./img/tn-oota/scrshoot1.png" alt="" class="d-block w-100">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./img/tn-oota/scrshoot2.png" alt="" class="d-block w-100">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./img/tn-oota/scrshoot3.png" alt="" class="d-block w-100">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./img/tn-oota/scrshoot4.png" alt="" class="d-block w-100">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./img/tn-oota/scrshoot5.png" alt="" class="d-block w-100">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./img/tn-oota/scrshoot6.png" alt="" class="d-block w-100">
-                          </div>
                         </div>
-
-                        <!-- Left and right controls/icons -->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                          <span class="carousel-control-next-icon"></span>
-                        </button>
+                        <div class="swiper-slide">
+                            <img src="./img/tn-oota/scrshoot2.png" alt="" class="d-block w-100">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/tn-oota/scrshoot3.png" alt="" class="d-block w-100">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/tn-oota/scrshoot4.png" alt="" class="d-block w-100">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/tn-oota/scrshoot5.png" alt="" class="d-block w-100">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/tn-oota/scrshoot6.png" alt="" class="d-block w-100">
+                        </div>
                       </div>
-                  </div>
+                      <!-- If we need pagination -->
+                      <div class="swiper-pagination"></div>
+
+                      <!-- If we need navigation buttons -->
+                      <div class="swiper-button-prev"></div>
+                      <div class="swiper-button-next"></div>
+
+                      <!-- If we need scrollbar -->
+                      <div class="swiper-scrollbar"></div>
+                    </div>                    
+                </div>
+
 
               </div>
           </div>
@@ -266,5 +263,28 @@
   <!-- Font Awesome icons (free version)-->
   <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+      const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      autoplay: {
+       delay: 3000,
+     },
+
+    });
+  </script>
 </body>
 </html>
